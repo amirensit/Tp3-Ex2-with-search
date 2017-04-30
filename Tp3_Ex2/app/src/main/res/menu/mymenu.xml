@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="ajouter"
+        android:id="@+id/add"
+        android:showAsAction="ifRoom"
+        android:visible="true" />
+    <item android:title="modifier"
+        android:id="@+id/modifier"
+        android:visible="true"
+        android:showAsAction="ifRoom"
+        android:enabled="true" />
+    <item android:title="supprimer"
+        android:id="@+id/supprimer"
+        android:visible="true"
+        android:enabled="true"
+        android:showAsAction="ifRoom" />
+</menu>
