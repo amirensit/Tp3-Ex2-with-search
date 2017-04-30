@@ -69,6 +69,13 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(this,SupprimerStudent.class);
                 startActivityForResult(intent,ADD_ITEM_ACTIVITY);
             }
+
+            else if(id ==R.id.search)
+            {
+                Toast.makeText(getApplicationContext(), "recherche d'un etudiant", Toast.LENGTH_LONG).show();
+                Intent intent = new Intent(this,SearchStudent.class);
+                startActivityForResult(intent,ADD_ITEM_ACTIVITY);
+            }
             return super.onOptionsItemSelected(item);
         }
 
